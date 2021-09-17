@@ -1,5 +1,10 @@
 import * as React from "react"
 import "/src/styles.css";
+import "@fontsource/fredericka-the-great"
+import "@fontsource/open-sans"
+import profile from "/src/images/new-profile.jpg"
+import storm from "/src/images/storm.jpg"
+
 
 // styles
 const pageStyles = {
@@ -128,51 +133,39 @@ const links = [
 // markup
 const IndexPage = () => {
   return (
-    <main style={pageStyles}>
+    <main>
       <title>John Kiernan</title>
-      <h1 className="intro">
-        Hi, I'm John
-        <br />
-        <span style={headingAccentStyles}>— you just made a Gatsby site! </span>
-        <span role="img" aria-label="Party popper emojis">
-          🎉🎉🎉
-        </span>
+      <header>
+        <p className="logo">TK</p>
+        <nav>
+          <ul>
+            <li><a>About Me</a></li>
+            <li><a>Projects</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <section className="splash">
+        <div className="intro">
+        <div className="intro__text">
+        <p>Ahoy webfarer, my name is</p>
+            <h1>
+        John Kiernan
       </h1>
-      <p style={paragraphStyles}>
-        Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
-        update in real-time.{" "}
-        <span role="img" aria-label="Sunglasses smiley emoji">
-          😎
-        </span>
-      </p>
-      <ul style={listStyles}>
-        <li style={docLinkStyle}>
-          <a
-            style={linkStyle}
-            href={`${docLink.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
-          >
-            {docLink.text}
-          </a>
-        </li>
-        {links.map(link => (
-          <li key={link.url} style={{ ...listItemStyles, color: link.color }}>
-            <span>
-              <a
-                style={linkStyle}
-                href={`${link.url}?utm_source=starter&utm_medium=start-page&utm_campaign=minimal-starter`}
-              >
-                {link.text}
-              </a>
-              {link.badge && (
-                <span style={badgeStyle} aria-label="New Badge">
-                  NEW!
-                </span>
-              )}
-              <p style={descriptionStyle}>{link.description}</p>
-            </span>
-          </li>
-        ))}
-      </ul>
+      <h2>I'm a student of the Turing School of Software and Design and a front-end developer in training. Learning the intricacies of HTML, CSS, JavaScript and its frameworks.</h2>
+
+      </div>
+      </div>
+      </section>
+      <section className="about-me">
+        <div className="intro__text">
+          <h2>About Me</h2>
+          <p>I'm a front-end software engineer in training with a focus on Javascript and its frameworks and libraries (primarily React).</p>
+
+<p>In my previous positions, I worked in digital and print content creation, project management, and digital marketing. I became the go-to person whenever coworkers ran into technical obstacles or when managers wanted to implement new technologies and software. </p>
+          </div>
+      </section>
     </main>
   )
 }
