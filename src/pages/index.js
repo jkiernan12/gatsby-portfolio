@@ -2,6 +2,7 @@ import * as React from "react"
 import Layout from "../components/layout"
 import Splash from "../components/splash"
 import AboutMe from "../components/aboutMe"
+import Projects from "../components/projects"
 import "@fontsource/fredericka-the-great"
 import "@fontsource/open-sans"
 
@@ -14,6 +15,7 @@ const IndexPage = () => {
     <Layout pageTitle="John Kiernan">
       <Splash></Splash>
       <AboutMe></AboutMe>
+      <Projects></Projects>
     </Layout>
   )
 }
