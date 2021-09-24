@@ -1,0 +1,29 @@
+.aboutSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98.5vh;
+    width: 100vwh;
+}
+
+.aboutText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    max-width: 50%;
+    margin: 20px;
+}
+
+.aboutPic {
+    max-width: 33%;
+    transition: .2s;
+    box-shadow: 25px 25px var(--gold-crayola);
+    filter: sepia(0%)
+}
+
+.aboutPic:hover {
+    transform: translateX(-4px) translateY(-4px);
+    box-shadow: 29px 29px var(--gold-crayola);
+    filter: sepia(60%);
+}

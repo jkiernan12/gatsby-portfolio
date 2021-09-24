@@ -1,0 +1,37 @@
+.projectImage {
+    background-color: blue;
+    width: 90%;
+    height: 200px;
+}
+
+.project {
+    background-color: var(--black-coffee);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    width: 300px;
+    margin: 30px;
+    box-shadow: 8px 8px var(--gold-crayola);
+    transition: .2s;
+}
+
+.project:hover {
+    transform: translateY(-4px) translateX(-4px);
+    box-shadow: 12px 12px var(--gold-crayola);
+}
+
+.projectButton {
+    background-color: var(--umber);
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+    transition: .1s;
+}
+
+.projectButton:hover {
+    background-color: var(--gold-crayola);
+    color: var(--black-coffee)
+}

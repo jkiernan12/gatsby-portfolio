@@ -1,0 +1,27 @@
+.contactSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98.5vh;
+    width: 100vwh;
+}
+
+.contactText {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    max-width: 50%;
+    margin: 20px;
+}
+
+.contactIcons {
+    display: flex;
+}
+
+.contactIcons img {
+    width: 33%;
+    margin: 15px;
+    color: white;
+}

@@ -5,6 +5,7 @@ import AboutMe from "../components/aboutMe"
 import Projects from "../components/projects"
 import "@fontsource/fredericka-the-great"
 import "@fontsource/open-sans"
+import Contact from "../components/contact"
 
 
 // data
@@ -16,6 +17,7 @@ const IndexPage = () => {
       <Splash></Splash>
       <AboutMe></AboutMe>
       <Projects></Projects>
+      <Contact></Contact>
     </Layout>
   )
 }

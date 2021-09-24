@@ -1,0 +1,20 @@
+.projectSection {
+    max-width: 98.5vw;
+    height: 100vh;
+    background-image: url("../assets/thames.jpg");
+    background-size: 100%;
+    background-position: right;
+    background-attachment: fixed;
+    display: flex;
+    width: 100%;
+}
+.projectContainer {
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 3rem; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}

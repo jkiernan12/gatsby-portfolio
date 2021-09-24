@@ -1,0 +1,123 @@
+
+/* :root {
+--mint-cream: #f7fff7ff;
+--jet: #343434ff;
+--space-cadet: #2f3061ff;
+--naples-yellow: #ffe66dff;
+--air-superiority-blue: #6ca6c1ff;
+} */
+:root {
+--gold-crayola: #DFBD7Eff;
+--black-coffee: #352B28ff;
+--umber: #625A51ff;
+--white: rgb(234, 233, 228);
+}
+header {
+    /* background-color: rgba(0, 0, 0, 0); */
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+nav {
+    margin: 0 30px;
+}
+nav ul {
+    display: flex;
+}
+
+
+
+nav ul li {
+    list-style-type: none;
+    padding: 0 25px;
+    font-size: 18px;
+}
+nav ul li:nth-child(2) {
+    border-left: 2px solid var(--white);
+    border-right: 2px solid var(--white);
+}
+
+section {
+    height: 98.5vh;
+    width: 100vwh;
+}
+
+body {
+    margin: 0;
+    background-color: var(--black-coffee);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    color: var(--white);
+    font-size: 1.2rem;
+    font-family: "Open Sans"
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+h1 {
+   font-size: 7rem;
+   margin: 0;
+   color: var(--naples-yellow);
+}
+
+.splash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98.5vw;
+    height: 100vh;
+    background-image: url("images/storm.jpg");
+    background-size: 130%;
+    background-position: right;
+    background-attachment: fixed;
+    overflow: none;
+}
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+.intro__logo {
+    font-size: 7rem;
+}
+
+.intro__pic {
+    width: 20%;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.intro__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    max-width: 50%;
+    margin: 20px;
+    /* align-items: center; */
+}
+
+
+.highlight {
+    background-color: var(--naples-yellow);
+    color:var(--space-cadet);
+}
