@@ -20,8 +20,12 @@
     display: flex;
 }
 
-.contactIcons img {
+.contactIcons a {
     width: 33%;
     margin: 15px;
     color: white;
+}
+
+.contactIcons img {
+    width: 100%;
 }

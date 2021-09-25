@@ -14,7 +14,6 @@ const Layout = ({pageTitle, children}) => {
         <div>
             <title>{pageTitle}</title>
             <header className={header}>
-                <p className="logo"></p>
                 <nav className={nav}>
                 <ul className={navList}>
                     <li className={navListItem}><Link className={navListButton} to="#aboutMe">About Me</Link></li>

@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 98.5vh;
+    min-height: 98.5vh;
     width: 100vwh;
 }
 
@@ -26,4 +26,28 @@
     transform: translateX(-4px) translateY(-4px);
     box-shadow: 29px 29px var(--gold-crayola);
     filter: sepia(60%);
+}
+
+@media only screen and (max-width: 1000px) {
+    .aboutSection {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100vwh;
+    }
+    
+    .aboutText {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        max-width: 80%;
+        margin: 20px;
+    }
+    
+    .aboutPic {
+        max-width: 33%;
+        transition: .2s;
+        box-shadow: 25px 25px var(--gold-crayola);
+        filter: sepia(0%)
+    }
 }

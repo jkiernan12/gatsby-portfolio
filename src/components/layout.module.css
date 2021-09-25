@@ -19,7 +19,7 @@
         position: absolute;
         top: 0;
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-end;
         width: 100%;
     }
     
@@ -67,4 +67,26 @@
         max-width: 100%;
     }
     
+    @media only screen and (max-width: 1000px) {
+        .header {
+            justify-content: center;
+        }
+
+        .nav {
+            margin: 0;
+
+        }
+        .navList {
+            display: flex;
+            justify-content: center;
+        }
     
+        .navListItem {
+            list-style-type: none;
+            padding: 0 25px;
+            font-size: 18px;
+            color: var(--white);
+            text-decoration: none;
+            transition: .1s;
+        }
+    }

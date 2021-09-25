@@ -1,6 +1,6 @@
 .projectSection {
     max-width: 98.5vw;
-    height: 100vh;
+    min-height: 100vh;
     background-image: url("../assets/thames.jpg");
     background-size: 100%;
     background-position: right;
