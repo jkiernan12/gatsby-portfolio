@@ -11,8 +11,8 @@ const AboutMe = (props) => {
         <section className={aboutSection} id="aboutMe">
         <div className={aboutText}>
           <h2>About Me</h2>
-          <p>I'm a front-end software engineer in training with a focus on Javascript and its frameworks and libraries (primarily React).</p>
-          <p>In my previous positions, I worked in digital and print content creation, project management, and digital marketing. I became the go-to person whenever coworkers ran into technical obstacles or when managers wanted to implement new technologies and software. </p>
+          <p>I'm a software engineer in training at the Turing School of Software and Design. JavaScript and its frameworks are my main focus, but I'm always excited to explore new tech and stacks.</p>
+          <p>Curiosity, problem solving, and a love of learning have been the guiding beacons in my life. In my previous positions, I worked in digital and print content creation, project management, and digital marketing. Throughout my past careers, I found myself attracted to the technical pieces of my job, whether it was database management, web/email design, or learning about a new CRM. After creating a portal for work that integrated HTML, CSS, basic Javascript and database queries, I realized that I wanted to pursue web and software development full-time. I signed up for the Turing School, quit my job, and started having a blast learning about software engineering!</p>
           </div>
           <img src={profilePic} className={aboutPic}/>
       </section>

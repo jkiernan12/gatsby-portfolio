@@ -9,7 +9,7 @@ import linkedin from "../assets/linkedin.svg"
 import email from "../assets/email.svg"
 const Contact = (props) => {
     return (
-        <section className={contactSection} id="aboutMe">
+        <section className={contactSection} id="contact">
         <div className={contactText}>
           <h2>Conctact Me</h2>
           <p>Feel free to connect with me on LinkedIn, check out my GitHub profile, or shoot me an email!</p>

@@ -17,7 +17,7 @@ const Splash = (props) => {
             <h1 className={splashHeader}>
         John Kiernan
       </h1>
-      <h2>Aspiring software engineer, student at the Turing School of Software and Design, and tech enthusiast.</h2>
+      <h2>Aspiring software engineer, student at the Turing School of Software and Design, perpetual learner.</h2>
       </div>
       </div>
       </section>

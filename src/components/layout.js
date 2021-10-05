@@ -18,7 +18,7 @@ const Layout = ({pageTitle, children}) => {
                 <ul className={navList}>
                     <li className={navListItem}><Link className={navListButton} to="#aboutMe">About Me</Link></li>
                     <li className={navListItem}><Link className={navListButton} to="#projects">Projects</Link></li>
-                    <li className={navListItem}><Link className={navListButton} to="#projects">Contact</Link></li>
+                    <li className={navListItem}><Link className={navListButton} to="#contact">Contact</Link></li>
                 </ul>
                 </nav>
             </header>

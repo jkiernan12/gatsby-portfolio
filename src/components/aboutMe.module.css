@@ -19,7 +19,8 @@
     max-width: 33%;
     transition: .2s;
     box-shadow: 25px 25px var(--gold-crayola);
-    filter: sepia(0%)
+    filter: sepia(0%);
+    margin: 20px;
 }
 
 .aboutPic:hover {

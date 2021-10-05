@@ -15,9 +15,15 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@fontsource/cormorant-garamond": "^4.5.0",
     "@fontsource/fredericka-the-great": "^4.5.0",
     "@fontsource/open-sans": "^4.5.0",
     "gatsby": "^3.13.0",
+    "gatsby-background-image": "^1.5.3",
+    "gatsby-plugin-image": "^1.14.0",
+    "gatsby-plugin-sharp": "^3.14.0",
+    "gatsby-source-filesystem": "^3.14.0",
+    "gatsby-transformer-sharp": "^3.14.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   }

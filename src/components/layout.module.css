@@ -28,6 +28,7 @@
     }
     .navList {
         display: flex;
+        padding-inline-start: 0px;
     }
 
     .navListItem {
