@@ -29,7 +29,7 @@ const Projects = (props) => {
             projectTitle="Tic Tac Toe" 
             projectBody="A spooky tic tac toe featuring responsive design and data persistence with local storage"
             projectImage={ticTacToe}
-            projectLink="https://github.com/jkiernan12/calculator"></ProjectCard>
+            projectLink="https://github.com/jkiernan12/tic-tac-toe"></ProjectCard>
             </div>
         </section>
     )
